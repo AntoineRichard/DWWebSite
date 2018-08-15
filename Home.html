@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<!--<meta charset="utf-8"/>-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="HomeStyle.css" />
+<link rel="stylesheet" href="HomeMenu.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="navbar2openclose.js" async></script>
+<script type="text/javascript" src="MoovingParticles.js" async></script>
+<script type="text/javascript" src="fmeffects.js" async></script>
+<title>Home</title>
+</head>
+<body>
+	<header id="header">
+		<div class="logo">
+			<img src="full_close2.svg" id="logo-left" alt="menu_open">
+			<img src="full_open2.svg" id="logo-left-open" class="open" alt="menu_open" usemap="#menu">
+			<img src="full_close2.svg" id="logo-left-close" class="close" alt="menu_close" usemap="#menu">
+			<map name="menu">
+				<area class="img_button" shape="poly" coords="0,50,16,23,48,23,64,50,48,77,16,77,0,50" alt="menu" href="">
+			</map>
+			<input type="bool" value="Close" id="navbar_state" style="display:none">
+		</div>
+		<div class="header_band">
+			<div class="header_nav">
+				<img src="Art_sparks.svg" id="art_sparks" class="sparks_art" alt="s2art">
+				<img src="Art.svg" id="art" class="art" alt="2art">
+			</div>
+			<div class="header_nav">
+				<img src="Robotic_sparks1.svg" id="rob_sparks1" class="sparks_rob1" alt="s2rob">
+				<img src="Robotic_sparks2.svg" id="rob_sparks2" class="sparks_rob2" alt="s2rob">
+				<img src="Robotic_sparks3.svg" id="rob_sparks3" class="sparks_rob3" alt="s2rob">
+				<img src="Robotic.svg" id="rob" class="rob" alt="2rob">
+			</div>
+		</div>
+	</header>
+	<div id="body">
+		<div class="core_nav">
+			<!-- unfoldable navigation UI -->
+			<div id="navbar" class="slidenavbar-left" style="display:none">
+				<!--button class="close_button" onclick="close_navbar('core','navbar','open_nav')">Close &times;</button-->
+				<nav class="foldable_nav">
+					<ul>
+						<li>About Me
+							<ul>
+								<li>CV</li>
+								<li>Contact</li>
+							</ul>
+						</li>
+						<li>Art
+							<ul>
+								<li>Charcoal</li>
+								<li>Marker</li>
+								<li>Digital</li>
+							</ul>
+						</li>
+						<li>Robotic
+							<ul>
+								<li>Racecar</li>
+								<li>Drone</li>
+								<li>Machine Learning</li>
+								<li>ROS</li>
+								<li>Linux</li>
+								<li>Jetson</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!-- ART DYNAMIC BLOG SHOW -->
+			<div id="core">
+				<div class="core_display">
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+				</div>
+				<!-- ROBOTIC DYNAMIC BLOG SHOW -->
+				<div  class="core_display">
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+					BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+				</div>
+			</div>
+			<!-- CENTER PART -->
+		</div>
+		<div id="floating_menu">
+			<img src="svg_elem/floating_menu/floatlogo_main.svg" id="fm_main" alt="fm_main">
+			<img src="svg_elem/floating_menu/floatlogo_git.svg" id="fm_git" alt="fm_git">
+			<img src="svg_elem/floating_menu/floatlogo_cv.svg" id="fm_cv" alt="fm_cv">
+			<img src="svg_elem/floating_menu/floatlogo_dev.svg" id="fm_dev" alt="fm_dev">
+			<img src="svg_elem/floating_menu/floatlogo_linkedin.svg" id="fm_in" alt="fm_in">
+			<img src="svg_elem/floating_menu/floatlogo_youtube.svg" id="fm_yt" alt="fm_yt">
+		</div>
+	</div>
+	<footer id="footer">
+		<!-- Me and more -->
+		<section class="footer_elem">
+			Web site made by Antoine Richard, Robotic PhD candidate
+		</section>
+		<!-- Social -->
+		<section class="footer_elem">
+			<ul>
+				<li>YouTube</li>
+				<li>Linked In</li>
+				<li>Git</li>
+				<li>Deviant Art</li>
+				<li>Instagram</li>
+			</ul>
+		</section>
+	</footer>
+</body>
+</html>

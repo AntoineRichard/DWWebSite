@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+#floating_menu{
+	position: fixed;
+	margin-left: calc(50% - 110px);
+	width: 220px;
+	height: 220px;
+	top: 140px;
+}
+#fm_cv {
+	position: absolute;
+	width: 100px;
+	margin-top: 118px;
+	margin-left: 25px;
+	-webkit-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	-moz-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	-o-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+}
+
+#fm_main {
+	position: absolute;
+	width: 150px;
+	margin-top: 25px;
+	margin-left: 45px;
+}
+#fm_git {
+	position: absolute;
+	width: 77px;
+	margin-left: 10px;
+	margin-top: 15px;
+	-webkit-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	-moz-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	-o-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+}
+#fm_yt {
+	position: absolute;
+	width: 40px;
+	margin-left: 160px;
+	margin-top: 108px;
+	-webkit-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	-moz-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	-o-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+}
+#fm_in {
+	position: absolute;
+	width: 40px;
+	margin-left: 144px;
+	margin-top: 15px;
+	-webkit-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	-moz-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	-o-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+}
+#fm_dev {
+	position: absolute;
+	width: 40px;
+	margin-left: 174px;
+	margin-top: 60px;
+	-webkit-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	-moz-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	-o-transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+  	transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+}

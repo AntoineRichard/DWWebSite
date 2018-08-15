@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* FlexBoxes*/
+#header
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: auto;
+	height: 125px;
+}
+
+.logo img {
+	width: 165px;
+  	position: absolute;
+  	left: 10;
+  	-webkit-transition: opacity 0.3s ease-in-out;
+  	-moz-transition: opacity 0.3s ease-in-out;
+  	-o-transition: opacity 0.3s ease-in-out;
+  	transition: opacity 0.3s ease-in-out;
+}
+
+.header_band{
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: calc(100% - 180px);
+	margin-left: 165px;
+}
+.header_nav{
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+	width: calc(50% - 20px);
+	align-content: center;
+}
+.header_nav img {
+	position: absolute;
+	min-width: 200;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header_nav img.art{
+	width: 85px;
+	top: 40px;
+	left: calc(37% - 85px/2);
+}
+
+.header_nav img.sparks_art{
+	width: 150px;
+	top: 20px;
+	left: calc(37% - 150px/2);
+	-webkit-transition: width 1.0s ease-in-out, top 1.0s ease-in-out, left 1.0s ease-in-out;
+  	-moz-transition: width 1.0s ease-in-out, top 1.0s ease-in-out, left 1.0s ease-in-out;
+  	-o-transition: width 1.0s ease-in-out, top 1.0s ease-in-out, left 1.0s ease-in-out;
+  	transition: width 1.0s ease-in-out, top 1.0s ease-in-out, left 1.0s ease-in-out;
+}
+
+.header_nav img.rob{
+	width: 180px;
+	top: 40px;
+	left: calc(75% - 180px/2);
+}
+
+
+.header_nav img.sparks_rob1{
+	width: 240px;
+	top: 15px;
+	left: calc(75% - 230px/2);
+	-webkit-transition: width 1.0s ease-in-out, top 1.0s ease-in-out, left 1.0s ease-in-out;
+  	-moz-transition: width 1.0s ease-in-out, top 1.0s ease-in-out, left 1.0s ease-in-out;
+  	-o-transition: width 1.0s ease-in-out, top 1.0s ease-in-out, left 1.0s ease-in-out;
+  	transition: width 1.0s ease-in-out, top 1.0s ease-in-out, left 1.0s ease-in-out;
+}
+
+.header_nav img.sparks_rob2{
+	width: 240px;
+	top: 22px;
+	left: calc(75% - 230px/2);
+	-webkit-transition: width 0.5s ease-in-out, top 0.5s ease-in-out, left 0.5s ease-in-out;
+  	-moz-transition: width 0.5s ease-in-out, top 0.5s ease-in-out, left 0.5s ease-in-out;
+  	-o-transition: width 0.5s ease-in-out, top 0.5s ease-in-out, left 0.5s ease-in-out;
+  	transition: width 0.5s ease-in-out, top 0.5s ease-in-out, left 0.5s ease-in-out;
+}
+
+.header_nav img.sparks_rob3{
+	width: 240px;
+	top: 25px;
+	left: calc(75% - 230px/2);
+	-webkit-transition: width 0.2s ease-in-out, top 0.2s ease-in-out, left 0.2s ease-in-out;
+  	-moz-transition: width 0.2s ease-in-out, top 0.2s ease-in-out, left 0.2s ease-in-out;
+  	-o-transition: width 0.2s ease-in-out, top 0.2s ease-in-out, left 0.2s ease-in-out;
+  	transition: width 0.2s ease-in-out, top 0.2s ease-in-out, left 0.2s ease-in-out;
+}
+
+
+
+.core_nav{
+	display: flex;
+	flex-direction: row;
+	/*flex-wrap: wrap;*/
+}
+
+.slidenavbar-left{
+	position:relative;
+	animation:animateleft 0.4s
+}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+#core{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	min-width: 500;
+	transition:margin-left .4s;
+}
+.core_display{
+	width: 50%;
+	min-width: 250;
+}
+#footer
+{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+html{
+	font-family: sans-serif;
+	background-color: #0A0036;
+	background-image: url("1920x1080_starry-sky-night-trees-night-landscape.jpg")
+}
